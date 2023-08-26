@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+.logIn_page > .font_1 {
+  font-family: "Cairo";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+//   text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+ margin-top: 5rem;
+ letter-spacing: 4px;
+ margin-right: 75px;
+}
+.logIn_page > .font_2{
+  margin-left: 8.7rem;
+}
+.form_container{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.email_field{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8.7rem;
+  
+
+}
+.password_field{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8.7rem;
+
+}
+.logIn_checkbox{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8.7rem;
+}
+
+
+
+.g_btn {
+  display: block;
+  width: 56%;
+  border: none;
+  border-radius: 5px ;
+  background-color: #613394;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 8.7rem;
+  margin-top: 1rem;
+}
